@@ -85167,7 +85167,7 @@ function () {
   }
 
   Company.prototype.markerContent = function () {
-    return "<div>\n              <h1>Company name: " + this.companyName + "</h1>\n              <h3>Catchphrase: " + this.catchPhrase + "</h3>\n            </div>";
+    return "<div>\n\t\t\t\t\t\t\t<h1>Company name: " + this.companyName + "</h1>\n\t\t\t\t\t\t\t<h3>Catchphrase: " + this.catchPhrase + "</h3>\n\t\t\t\t\t\t</div>";
   };
 
   Company.prototype.getName = function () {
@@ -85263,7 +85263,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56353" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63787" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
