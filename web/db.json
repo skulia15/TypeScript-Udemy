@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "newer name",
+      "age": 0
+    },
+    {
+      "name": "Kalli",
+      "age": 11,
+      "id": 2
+    },
+    {
+      "name": "Skúli",
+      "age": 24,
+      "id": 3
+    },
+    {
+      "name": "Arnar",
+      "age": 24,
+      "id": 4
+    },
+    {
+      "name": "Kalli",
+      "age": 24,
+      "id": 5
+    },
+    {
+      "name": "Skúli",
+      "age": 43,
+      "id": 6
+    }
+  ]
+}
